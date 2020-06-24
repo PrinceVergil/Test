@@ -106,7 +106,16 @@ public class sun {
         
          Points p = new Points(1,1); 
          find_surface(Building, p); 
+          Points Building1[] = {new Points(4, 0), 
+                            new Points(4,-5),  
+                            new Points(7, -5),  
+                            new Points(0.4, -2),
+                            new Points(0.4, -5),
+                            new Points(2.5, -5),
+                            new Points(2.5, -2)}; 
         
+         Points p1 = new Points(-3.5,1); 
+         find_surface(Building1, p1); 
         
     } 
 
